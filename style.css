@@ -1,0 +1,58 @@
+#video {
+    width: 1263px;
+    height: 400px;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+img {
+    margin-left: 350px;
+}
+section {
+    margin-right: 300px;
+}
+.menu {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    list-style: none;
+}
+.links {
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+    
+}
+.links:hover {
+   font-size: 25px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+li {
+    float: left;
+    
+}
+
+
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background-color: black;
+}
+input{
+    background: grey;
+}
+video {
+    height: 500px;
+    width: 500px;
+}
